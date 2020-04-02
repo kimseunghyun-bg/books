@@ -17,6 +17,7 @@
         <module>chapter07</module>
         <module>chapter08</module>
         <module>chapter09</module>
+        <module>chapter11</module>
     </modules>
 
     <dependencies>
@@ -81,6 +82,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>5.2.0.RELEASE</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/jstl/jstl -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+            <scope>runtime</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-aop -->
